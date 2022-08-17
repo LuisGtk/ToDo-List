@@ -1,3 +1,5 @@
+This is a re do from one of my older and simpler projects from my bootcamp process. It's a functioning to do list and although some data is hard coded; can still be helpful when needing a quick outline when working on a much larger project.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
