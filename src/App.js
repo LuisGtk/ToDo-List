@@ -2,6 +2,7 @@ import { useState } from 'react';
 import './App.css';
 import ToDoListData from './data/toDoListData'
 import ItemForm from './Components/ItemForm/ItemForm'
+import ItemList from './Components/ItemList/ItemList'
 
 
 function App() {
@@ -12,7 +13,16 @@ function App() {
   return (
     <div className="App">
       <h1>My To Do List:</h1>
-      <ItemForm setToDoNewItem={setToDoNewItem} />
+      <ItemForm 
+      setToDoNewItem={setToDoNewItem}
+        setListData={setListData}
+        listData={listData}
+        toDoItem={toDoItem}
+      />
+       <ItemList
+          listData={listData}
+          toDoItem={toDoItem}
+           />
     </div>
   );
 }

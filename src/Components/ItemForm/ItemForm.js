@@ -2,7 +2,7 @@ import { useState } from 'react';
 
 function NewForm({ setToDoNewItem, setListData, listData, toDoItem }){
 
-    const [title, setNewTitle] = useState('');
+    const [title, setNewTitle] = useState("");
 
     function handleSubmit(event){
         event.preventDefault();
